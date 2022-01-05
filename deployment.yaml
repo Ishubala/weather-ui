@@ -28,7 +28,7 @@ spec:
       name: weather-ui
     spec:
       containers:
-        - image: public.ecr.aws/c6p1a7g3/weather:ui
+        - image: nginx
         imagePullPolicy: Always
         name: weather-ui
         ports:
