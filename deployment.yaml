@@ -28,8 +28,8 @@ spec:
       name: weather-ui
     spec:
       containers:
-      - image: {{image}}
-        imagePullPolicy: IfNotPresent
+        - image: public.ecr.aws/c6p1a7g3/weather:ui
+        imagePullPolicy: Always
         name: weather-ui
         ports:
         - containerPort: 5000
